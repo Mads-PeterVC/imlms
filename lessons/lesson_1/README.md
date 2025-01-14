@@ -1,5 +1,9 @@
 # Python for computational science intro / recap
 
+## Slides
+
+## Exercises
+
 | Exercises | File | Colab |
 | --------  | ---- | ------ |
 | Numpy     |  NAN | NAN    |
@@ -8,3 +12,4 @@
 
 [Open in Google Colab]: https://colab.research.google.com/assets/colab-badge.svg
 
+## Resources
