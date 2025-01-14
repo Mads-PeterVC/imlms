@@ -1,0 +1,22 @@
+[project]
+name = "imlms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mads-Peter", email = "machri@phys.au.dk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ase>=3.24.0",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.1",
+]
+
+[project.scripts]
+imlms = "imlms:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
