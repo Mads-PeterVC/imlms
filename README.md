@@ -1,5 +1,14 @@
 # Introduction to Machine Learning for Materials Science
 
+## Lesson plan: 
+
+1. Python for computational science intro / recap. 
+2. The Atomic Simulation Environment
+3. Potential energy surfaces
+4. Introduction to Machine Learning
+5. Machine Learning for atomic systems 1 
+6. Machine Learning for atomic systems 2 
+
 ## Goals
 
 - Atomistic description of materials
