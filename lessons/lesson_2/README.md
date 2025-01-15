@@ -11,3 +11,6 @@
 [Open in Google Colab]: https://colab.research.google.com/assets/colab-badge.svg
 
 ## Resources
+
+[ASE: Getting Started](https://wiki.fysik.dtu.dk/ase/gettingstarted/gettingstarted.html)
+[ASE: Tutorials](https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html)
