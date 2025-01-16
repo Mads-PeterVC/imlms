@@ -1,0 +1,2 @@
+from .get_gd_data import get_example_data
+from .get_damped_osc_data import get_damped_osc_dataset
