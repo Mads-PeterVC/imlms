@@ -12,5 +12,5 @@
 
 ## Resources
 
-[ASE: Getting Started](https://wiki.fysik.dtu.dk/ase/gettingstarted/gettingstarted.html)
-[ASE: Tutorials](https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html)
+- [ASE: Getting Started](https://wiki.fysik.dtu.dk/ase/gettingstarted/gettingstarted.html)
+- [ASE: Tutorials](https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html)
