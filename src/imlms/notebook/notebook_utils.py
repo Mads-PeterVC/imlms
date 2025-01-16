@@ -16,8 +16,27 @@ def get_exercise_cells(notebook):
 
     return exercise_cells
 
+def add_installation_cell(notebook):
+    installation_source = """%%capture install
+try:
+  import imlms
+  print('Already installed')
+except:
+  %pip install git+https://github.com/Mads-PeterVC/imlms"""
+
+    installation_cell = nbformat.v4.new_code_cell()
+    installation_cell.source = installation_source
+    notebook.cells.insert(0, installation_cell)
+
+    check_source = """print(install.stdout.splitlines()[-1])"""
+    check_cell = nbformat.v4.new_code_cell()
+    check_cell.source = check_source
+    notebook.cells.insert(1, check_cell)
+
 def create_student_notebook(master_notebook):
     student_notebook = nbformat.v4.new_notebook()
+    add_installation_cell(student_notebook)
+
     solution_cells = get_solution_cells(master_notebook)
 
     for cell, solution in zip(master_notebook.cells, solution_cells):
@@ -32,6 +51,8 @@ def create_student_notebook(master_notebook):
 def create_solution_notebook(master_notebook):
     solution_notebook = nbformat.v4.new_notebook()
     exercise_cells = get_exercise_cells(master_notebook)
+
+    add_installation_cell(solution_notebook)
 
     for cell, exercise in zip(master_notebook.cells, exercise_cells):            
         if not exercise:
