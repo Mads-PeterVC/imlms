@@ -1,0 +1,11 @@
+from glob import glob
+from imlms.notebook import make_notebooks
+from pathlib import Path
+
+if __name__ == '__main__':
+
+    master_notebooks = glob('lesson*/*_master.ipynb')
+
+    for master_notebook in master_notebooks:
+        path = Path(master_notebook).resolve()
+        make_notebooks(path)
