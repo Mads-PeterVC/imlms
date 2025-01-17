@@ -10,9 +10,9 @@ requires-python = ">=3.10"
 dependencies = [
     "numpy<2.0",    
     "ase>=3.24.0",
-    "ipykernel",
     "matplotlib>=3.10.0",
     "torch",
+    "sevenn",
 ]
 
 [project.scripts]
@@ -21,3 +21,8 @@ imlms = "imlms:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
