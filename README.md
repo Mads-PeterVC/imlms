@@ -3,7 +3,7 @@
 ## Lesson plan
 
 1. Python for computational science intro / recap | [Link](https://github.com/Mads-PeterVC/imlms/tree/main/lessons/lesson_1)
-2. The Atomic Simulation Environment | [Link](https://github.com/Mads-PeterVC/imlms/tree/main/lessons/lesson_2)
+2. Pytorch / The Atomic Simulation Environment | [Link](https://github.com/Mads-PeterVC/imlms/tree/main/lessons/lesson_2)
 3. Potential energy surfaces | [Link](https://github.com/Mads-PeterVC/imlms/tree/main/lessons/lesson_3)
 4. Introduction to Machine Learning | [Link](https://github.com/Mads-PeterVC/imlms/tree/main/lessons/lesson_4)
 5. Machine Learning for atomic systems 1 | [Link](https://github.com/Mads-PeterVC/imlms/tree/main/lessons/lesson_5)
