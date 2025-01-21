@@ -2,7 +2,7 @@
 
 ## Slides
 
-- Slides: https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_2/lesson_2.pptx.ipynb
+- Slides: https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_2/lesson_2.pptx
 
 ## Exercises
 
