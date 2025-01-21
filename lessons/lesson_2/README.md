@@ -1,12 +1,14 @@
-# The Atomic Simulation Environment (ASE)
+# Pytorch & The Atomic Simulation Environment (ASE)
 
 ## Slides
+
+- Slides: https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_2/lesson_2.pptx.ipynb
 
 ## Exercises
 
 | Exercises | File | Colab |
 | --------  | ---- | ------ |
-| Torch | [torch_exercises.ipynb](https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_2/torch_exercises.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/torch_exercises.ipynb#) |
+| Torch | [torch_exercises.ipynb](https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_2/torch_exercises.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_2/torch_exercises.ipynb#) |
 | ASE | [ase_exercises.ipynb](https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/oop_exercises.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_2/ase_exercises.ipynb#) |
 
 [Open in Google Colab]: https://colab.research.google.com/assets/colab-badge.svg
