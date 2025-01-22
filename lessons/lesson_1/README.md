@@ -6,10 +6,10 @@
 
 ## Exercises
 
-| Subject | File | Colab |
-| --------  | ---- | ------ |
-| Numpy     | [numpy_exercises.ipynb](https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/oop_exercises.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/numpy_exercises.ipynb#) |
-| Object Oriented Programming | [oop_exercises.ipynb](https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/oop_exercises.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/oop_exercises.ipynb#) |
+| Subject | File | Colab | Solutions |
+| --------  | ---- | ------ | -------| 
+| Numpy     | [numpy_exercises.ipynb](https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/oop_exercises.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/numpy_exercises.ipynb#) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/numpy_exercises_solution.ipynb#)
+| Object Oriented Programming | [oop_exercises.ipynb](https://github.com/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/oop_exercises.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/oop_exercises.ipynb#) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/imlms/blob/main/lessons/lesson_1/oop_exercises_solution.ipynb#)
 
 [Open in Google Colab]: https://colab.research.google.com/assets/colab-badge.svg
 
