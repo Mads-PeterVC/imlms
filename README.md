@@ -1,5 +1,7 @@
 # Introduction to Machine Learning for Materials Science
 
+Contact for feedback: machri@phys.au.dk
+
 ## Lesson plan
 
 1. Python for computational science intro / recap | [Link](https://github.com/Mads-PeterVC/imlms/tree/main/lessons/lesson_1)
