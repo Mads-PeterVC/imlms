@@ -4,7 +4,7 @@ from pathlib import Path
 
 if __name__ == '__main__':
 
-    master_notebooks = glob('lesson_[5,6]/*_master.ipynb')
+    master_notebooks = glob('lesson_[4,5,6]/*_master.ipynb')
 
     for master_notebook in master_notebooks:
         print(master_notebook)
