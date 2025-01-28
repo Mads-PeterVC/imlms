@@ -5,9 +5,12 @@ build/
 dist/
 wheels/
 *.egg-info
+*.DS_store
+.python-version
 
 # Virtual environments
 .venv
+uv.lock
 
 # Slides
 *~$*.pptx
