@@ -3,19 +3,23 @@ from ase.io import read, write
 import torch
 import numpy as np
 from ase import Atoms
+from scipy.spatial.distance import cdist
 
-def load_data(n):
-
+def load_data(n, max_examples=None):
     path = files('imlms.potentials.data.carbon') / f'n_carbon_{n}_reduced.traj'
-    atoms = read(path, index=':')
+
+    if max_examples is None:
+        atoms = read(path, index=':')
+    else:
+        atoms = read(path, index=f'0:{max_examples}')
     positions = np.array([a.positions for a in atoms])
     energies = np.array([a.get_potential_energy() for a in atoms])
 
     return positions, energies
 
-def get_carbon_cluster_data(n, train=True):
+def get_carbon_cluster_data(n, train=True, max_examples=None):
     assert n in [5, 6, 7, 8, 9, 10, 11, 12], 'Invalid cluster size'
-    positions, energies = load_data(n)
+    positions, energies = load_data(n, max_examples=max_examples)
 
     return torch.tensor(positions).float(), torch.tensor(energies).float()
 
@@ -56,6 +60,20 @@ transforms = {
     'rotate': rotate_atoms,
     'permute': permute_atoms
 }
+
+def get_atomic_dataset(n, threshold=2.5):
+
+    X, _ = load_data(n)
+
+    y = []
+    for x in X:        
+        D = cdist(x, x) + np.eye(len(x))*100
+        D = np.count_nonzero(D < threshold, axis=1)
+        y.append(D)
+    
+    return X, np.array(y)
+
+
 
 
 
